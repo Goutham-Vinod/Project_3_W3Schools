@@ -1,0 +1,305 @@
+.monaco-h1 { font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 23px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; } 
+.monaco-h3 { font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; } 
+.monaco-p { font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; } 
+.monaco-blockquote { font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; } 
+.monaco-pre { font-family: monaco, Consolas, "Lucida Console", monospace; font-size: 11px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; }
+
+
+
+.bgW3Grey1{
+    background-color: #e7e9eb;
+}
+.bgW3Grey2{
+    background-color: #38444d ;
+}
+.bgW3Grey3{
+    background-color: #282a35;
+}
+.bgW3Grey4{
+    background-color: #15202b;
+}
+.bgW3Grey5{
+    background-color: #0d1721;
+}
+.bgW3Green1{
+    background-color: #d9eee1;
+}
+.bgW3Green2{
+    background-color: #04aa6d;
+}
+.bgW3Cyan{
+    background-color: #96d4d4;
+}
+.bgW3Red1{
+    background-color: #f3ecea;
+}
+.bgW3Red2{
+    background-color: #ffc0c7;
+}
+.bgW3Yellow{
+    background-color: #fff4a3;
+}
+.textW3Violet{
+    color: #c5a5c5 ;
+}
+
+
+
+
+
+
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+
+.header{
+    height: 75px;
+}
+
+.topRightDiv{
+    margin-left: auto;
+}
+
+.topRightIcons{
+    height: 35px;
+}
+
+
+.topLeftDiv{
+    display: flex;
+}
+
+.w3Logo{
+    height: 42px;
+    display: inline-block;
+}
+
+.topLeftIcon{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: white;
+}
+.topLeftIcon:hover{
+    background-color: green;
+}
+
+.arrow{
+    height: 8px;
+}
+
+
+.learn2CodeDiv{
+    background-color: #0d1721;
+}
+
+
+#line1{
+    font-size: 4rem;
+    font-weight: bold;
+    color: aliceblue;
+    padding-top: 6rem;
+}
+
+#line2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: aliceblue;
+    padding-top: 0.5rem;
+}
+
+
+.inputDiv{
+    width: 500px;
+}
+
+.form-control{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.inputSearch{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 90px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+h5{
+    font-weight: 600;
+}
+
+
+p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+button{
+    border-style: none;
+}
+
+.button1{
+    display: inline;
+    font-weight: 700;
+    padding: 8px;
+    width: 168px;
+    margin-top: 20px;
+}
+
+.button2{
+    display: inline;
+    font-weight: 700;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.button3{
+    display: inline;
+    font-weight: 700;
+    padding: 5px;
+    
+    margin-top: 20px;
+
+}
+
+button:hover {
+    filter: brightness(85%);
+    
+}
+
+.codingBox{
+    margin: 12%;
+    width: 80%;
+    height: 437px;
+}
+
+.codingArea{
+    height: 278px;
+}
+
+.card1{
+    height: 240px;
+    border-radius: 5px;
+}
+.card2{
+    height: 120px;
+    border-radius: 5px;
+}
+
+.codeEditorHeader1{
+    height: 41px;
+}
+
+.codeEditorHeader2{
+    height: 46px;
+}
+.codeEditorHeaderTopLeftDiv{
+    text-align: start;
+    padding-top: 10px;
+    
+}
+
+.codeEditorHeaderTopUrlDiv{
+    width: 45%;
+    margin-left: 125px;
+    display: inline-block;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+.codeEditor{
+    height: 279px;
+}
+
+.codeEditorBtn{
+    width: 99px;
+    height: 34px;
+}
+
+
+.threeDots{
+    height: 20px;
+    padding-left: 10px;
+}
+
+
+.proUserList{
+    width: 365px;
+    text-align: left;
+    
+}
+
+.imgHover:hover{
+    opacity: 80%;
+}
+
+.footerContact{
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+
+@media screen and (max-width: 1300px) 
+ 
+{    
+ 
+.cut1300 { display: none; } 
+ 
+}
+
+@media screen and (max-width: 1200px) 
+ 
+{    
+ 
+.cut1200 { display: none; } 
+ 
+}
+
+@media screen and (max-width: 950px) 
+ 
+{    
+ 
+.cut950 { display: none; } 
+ 
+}
+
+@media screen and (max-width: 850px) 
+ 
+{    
+ 
+.cut850 { display: none; } 
+#line1 { font-size: 3.5rem; }
+ 
+}
+
+@media screen and (max-width: 600px) 
+ 
+{    
+ 
+.cut600 { display: none; } 
+#line1 { font-size: 3rem; }
+#line2 { font-size: 1rem;}
+ 
+}
